@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Brothersoo's Adventure</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+        <!-- <script type="text/javascript" src="node_modules/webstomp-client/dist/webstomp.min.js"></script> -->
+
+        <!-- Font -->
+
+        <!-- Overworld css-->
+        <link href="/styles/global.css" type="text/css" rel="stylesheet">
+        <link href="/styles/TextMessage.css" type="text/css" rel="stylesheet">
+        <link href="/styles/KeyboardMenu.css" type="text/css" rel="stylesheet">
+        <link href="/styles/TitleScreen.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="/" class="nav_item" data-link>Home</a>
+        <a href="/room" class="nav_item" data-link>Room</a>
+    </nav>
+
+    <div id="root"></div>
+
+    <script type="module" src="/index.js"></script>
+</body>
+</html>
